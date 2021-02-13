@@ -2,20 +2,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Menu = ({}) => (
+const Menu = ({Google, Yahoo, Facebook}) => (
   <menu>
     <ul>
       <li>
-          {"Google"}</li>
+          {Google}</li>
       <li>
-          {"Yahoo"}</li>
+          {Yahoo}</li>
       <li>
-        {"Facebook"}
+        {Facebook}
       </li>
     </ul>
   </menu>
 );
 
 ReactDOM.render (
-<Menu/>,document.getElementById("root")
+<Menu
+Google = "Google"
+Yahoo = "Yahoo"
+Facebook = "Facebook"
+/>,document.getElementById("root")
 );

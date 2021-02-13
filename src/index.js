@@ -1,19 +1,35 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
-const nav = ({link}) => (
-<nav>
+// const nav = ({link}) => (
+// <nav>
+//     <ul>
+//         <li> {"Google"}</li>
+//         <li> {"Yahoo"}</li>
+//         <li>{"Link"}</li>
+//     </ul>
+// </nav>
+// );
+
+// ReactDOM.render (document.getElementById("root"));
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const Menu = ({}) => (
+  <menu>
     <ul>
-        <li>
-         {"Google"}
-        </li>
-        <li>
-         {"Yahoo"}
-        </li>
-        <li>
-         {"Link"}
-        </li>
+      <li>
+          {"Google"}</li>
+      <li>
+          {"Yahoo"}</li>
+      <li>
+        {"Facebook"}
+      </li>
     </ul>
-</nav>
+  </menu>
+);
 
+ReactDOM.render (
+<Menu/>,document.getElementById("root")
 );
